@@ -10,14 +10,15 @@ h1 {
 	padding: 40px;
 }
 #container{
-	margin-left: 20px;
+	padding: 10px;
+	
 }
 #box{
 	position: relative;
 	background-color: #A9E2F3;
 	padding: 40px 20px 20px;
 	border: 1px solid black;
-	margin: 10px;
+	clear: right;
 
 }
 span {
@@ -31,26 +32,31 @@ span {
 }
 
 @media (min-width: 992px){
-	#box{
-		width: 31%;
-		height: 246px;
+	#container{
+		width: 33.33%;
 		float: left;
+	}
+	#box{
+        height: 246px;
 	}
 	
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.caja1, .caja2{
-		width: 47%;
-		height: 210px;
+		width: 50%;
 		float: left;
 	}
+	.primera, .segunda{
+        height: 210px;
+	}
 	.caja3{
-		width: 96.5%;
+		width: 100%;
 		float: left;
 	}
 }
 @media (max-width: 767px){
-	#box{
-		width: 96%;
+	#container{
+		width: 100%;
 	}
+		
 }
