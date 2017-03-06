@@ -1,0 +1,54 @@
+body {
+	background-color: #CBDDFB;
+
+}
+#header-nav {
+	background-color: #337CF6;
+	border-radius: 0;
+	border-color: #7A7676;
+}
+#letra {
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.container {
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.row {
+	background-color: #A9E2F3;
+	padding: 40px 20px 20px;
+	border: 1px solid black;
+}
+.item {
+	background-color: #A9E2F3;
+	padding: 20px;
+	border: 1px solid black;
+	margin-top: 20px;
+}
+.title {
+	text-align: center;
+	padding: 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.menu {
+	text-align: center;
+	font-size: 2em;
+	font-family: helvetica, serif;
+	padding: 20px;
+	font-weight: bold;
+}
+.navbar-nav>li>a {
+	text-align: center;
+	background-color: #F8FDFE;
+	font-weight: bold;
+	font-size: 1.5em;
+	border-bottom: 1px solid black;
+}
+.navbar-toggle {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
